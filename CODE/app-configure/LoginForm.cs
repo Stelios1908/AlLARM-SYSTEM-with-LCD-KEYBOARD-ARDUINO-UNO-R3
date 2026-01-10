@@ -23,8 +23,8 @@ namespace WinFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string username = "stelios";// usernameValue.Text;  //
-            string pwd = "Lioste12345";//passwordValue.Text; //
+            string username = usernameValue.Text;  
+            string pwd = passwordValue.Text; 
             string combinedData = username + pwd;
 
             if (!credentialsStored)
@@ -111,4 +111,5 @@ namespace WinFormsApp1
 
         }
     }
+
 }
